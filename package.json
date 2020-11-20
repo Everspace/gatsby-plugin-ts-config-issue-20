@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-theme-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "yarn workspace example-site build"
+  },
+  "workspaces": [
+    "gatsby-theme-greetings",
+    "gatsby-theme-hello-planets",
+    "example-site"
+  ]
+}
